@@ -1,8 +1,9 @@
 body{
-	background-color:#00FF00;
+	background-color:black;
 }
 
 h1{
+	background-color:#00FF00;
 	font-size: 500%;
 	font-family: 'Exo 2', sans-serif;
 	text-align: center;	
@@ -11,4 +12,3 @@ h1{
 p{
 	font-size: 125%;
 }
-

@@ -12,3 +12,8 @@ h1{
 p{
 	font-size: 150%;
 }
+
+.big{
+	height:200px;
+	width:200x;
+}

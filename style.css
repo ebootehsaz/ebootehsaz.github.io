@@ -18,3 +18,16 @@ p{
 	width:150px;
 	font-size:30px;
 }
+
+button{color:black;
+	background:white;
+	
+}
+button:hover {
+    color:white;
+	background:black;
+}
+
+button:visited {
+    color: #00FF00;
+}

@@ -1,4 +1,10 @@
-.button {
+button{color:black;
+	background:white;
+}
+button:hover {
+    color:white;
+	background:black;
+}
 
   padding: 15% 32%;
 	font-size: 150%;

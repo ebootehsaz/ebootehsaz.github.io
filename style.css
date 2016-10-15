@@ -14,9 +14,9 @@ p{
 }
 
 .big{
-	height:150px;
-	width:150px;
-	font-size:30px;
+	height:150%;
+	width:150%;
+	font-size:30%;
 }
 
 button{color:black;

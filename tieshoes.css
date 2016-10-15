@@ -1,0 +1,13 @@
+span{
+color: #800000;
+font-style: italic;
+font-family: "Courier New";
+}
+
+button {
+	padding: 15px 32px;
+	font-size: 30px;
+	border: 15px solid purple;
+	
+}
+

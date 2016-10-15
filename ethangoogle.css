@@ -1,0 +1,49 @@
+h1{
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 39px;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 19px;
+	color:red;
+}
+
+.letter1{
+	Color:blue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.letter2{
+	color:red;
+font-style: oblique;
+	}
+
+.letter3{
+	color:yellow;
+	font-weight: bold;
+}
+
+.letter4{
+	color:blue;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+
+.letter5{
+	color:green;
+}
+
+button{color:black;
+	background:white;
+	
+}
+button:hover {
+    color:white;
+	background:black;
+}
+
+button:visited {
+    color: #00FF00;
+}
+.space{
+	margin-left:50px;
+}
+

@@ -1,0 +1,37 @@
+.edu{
+text-align:center;
+}
+
+.right{
+	text-align:right;
+	color:red;
+}
+.people{
+	font-size:50px;
+  font-style:"Times New Roman", Times, serif";
+  
+}
+
+div{
+	border-radius: 20px;
+}
+
+.edc{
+	background-color:#0000A0;
+	color:white;
+	padding:20px;
+}
+
+.car{
+	background-color:#ff0c20;
+	color:white;
+	padding:20px;
+}
+
+.work{
+	background-color:#FF69B4;
+	color:white;
+	padding:20px;
+}
+
+

@@ -24,7 +24,7 @@ button{color:black;
 }
 button:hover {
     color:white;
-	background:black;
+	background:blue;
 }
 
 button:visited {

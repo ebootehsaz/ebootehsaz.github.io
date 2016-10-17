@@ -20,6 +20,7 @@ p{
 }
 button{color:black;
 	background:white;
+	transition: 0.5s;
 	
 }
 button:hover {

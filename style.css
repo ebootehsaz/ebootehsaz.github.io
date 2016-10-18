@@ -14,9 +14,13 @@ p{
 }
 
 .big{
-	height 21%;
-	width:50%;
-	font-size:20;
+
+	font-size:20;	
+	height:100px;
+    width:100px;
+    border-radius:30px;
+}
+
 }
 button{color:black;
 	background:white;

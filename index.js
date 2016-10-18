@@ -1,7 +1,7 @@
 $(document).ready(function() {
    $('.big').mouseenter(function() {
        $(this).animate({
-           height: '+=25px'
+           height: '+=20px'
        });
    });
    $('.big').mouseleave(function() {
@@ -15,5 +15,5 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('.big' ).fadeOut(10000);
+    $('.big' ).fadeOut(100);
 });

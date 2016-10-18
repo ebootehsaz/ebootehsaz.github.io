@@ -16,6 +16,3 @@ $(document).ready(function() {
    }); 
 });
 
-$(document).ready(function() {
-    $('.big' ).fadeOut(100);
-});

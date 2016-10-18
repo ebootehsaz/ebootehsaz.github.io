@@ -15,16 +15,16 @@ p{
 
 .big{
 
-	font-size:20;	
-	height:100px;
-    width:100px;
-    border-radius:30px;
+	font-size:50;	
+	height:150px;
+        width:150px;
+         border-radius:20px;
 }
 
 }
 button{color:black;
 	background:white;
-	transition: 0.20s;
+	transition: 0.30s;
 	
 }
 button:hover {

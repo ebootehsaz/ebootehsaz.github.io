@@ -1,12 +1,12 @@
 $(document).ready(function() {
    $('.big').mouseenter(function() {
        $(this).animate({
-           height: '+=10px'
+           height: '+=25px'
        });
    });
    $('.big').mouseleave(function() {
        $(this).animate({
-           height: '-=10px'
+           height: '-=5px'
        }); 
    });
    $('.big').click(function() {

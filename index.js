@@ -14,4 +14,17 @@ $(document).ready(function() {
        $(this).toggle(1000);
    }); 
 });
+   
+    $('.big').mouseenter(function(){
+    $('.big').fadeTo('fast',1.0);
+    
+});
+    $('.big').mouseleave(function() {
+        $('.big').fadeTo('fast',.5);
+    
+});
+    
+    
+    
+});
 

@@ -13,7 +13,6 @@ $(document).ready(function() {
    $('.big').click(function() {
        $(this).toggle(1000);
    }); 
-});
    
     $('.big').mouseenter(function(){
     $('.big').fadeTo('fast',1.0);

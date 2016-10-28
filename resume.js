@@ -10,9 +10,15 @@ $(document).ready(function() {
        
        }); 
    });
+   
    $('.car, .edc, .work, .img, .int, .ex').click(function() {
-       $(this).toggle(1000);
+       $(this).fadeIn(0.0);
    }); 
+   
+     $('.car, .edc, .work, .img, .int, .ex').click(function() {
+       $(this).fadeOut(1.0);
+   }); 
+
 
     
     

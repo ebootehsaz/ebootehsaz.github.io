@@ -11,11 +11,11 @@ $(document).ready(function() {
        }); 
    });
    
-   $('.car, .edc, .work, .img, .int, .ex').click(function() {
+   $('.car, .edc, .work, .img, .int, .ex').mouseenter(function() {
        $(this).fadeIn(0.0);
    }); 
    
-     $('.car, .edc, .work, .img, .int, .ex').click(function() {
+     $('.car, .edc, .work, .img, .int, .ex').mouseleave(function() {
        $(this).fadeOut(1.0);
    }); 
 

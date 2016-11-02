@@ -11,7 +11,7 @@ $(document).ready(function() {
        }); 
    });
    
-   $('.car, .edc, .work, .img, .int, .ex').mouseenter(function() {
+   $('.car, .edc, .work, .img, .int, .ex').click(function() {
        $(this).fadeIn(0.0);
    }); 
    

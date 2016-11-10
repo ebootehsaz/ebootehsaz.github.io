@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ROCK, PAPER, SCISSORS. FIGHT! </title>
+<link rel = "stylesheet" type="text/css" href = "RPS.css" />
+</head>
+
+<body> 
+<center><h1>It's the Ultimate RPS Battle!</h1></center>
+
+<header class="header">
+			<div class="container">
+				<center> <h1><span class="rock">Rock<span>
+				<span class="paper">Papaper<span>
+				<span class="scissors">Scissors</span> </center> 
+			</div>
+		</header>
+		<div class="main">
+			<div class="container">
+				<section class="content">
+					<button class="play rock" type="button" onclick="play('rock')"></button>
+					<button class="play paper" type="button" onclick="play('paper')"></button>
+					<button class="play scissors" type="button" onclick="play('scissors')"></button>
+					<div style="clear:both;"></div>
+					<p><span id="player"></span> <span id="opponent"></span></p>
+					<h2 id="results"></h2>
+				</section>
+				<aside class="aside">
+					<div class="scorebox">
+						<h2>Score</h2>
+						<div class="score-num"><span id="wins">0</span> <br />Wins</div>
+						<div class="score-divider"><span>-</span></div>
+						<div class="score-num"><span id="loses">0</span> <br />Loses</div>
+					</div>
+					<button type="reset" id="reset" onclick="reset()">RESET SCORES</button>
+				</aside>
+			</div>
+		</div>
+
+<script type="text/javascript" src="RPS.js">
+</script>
+
+</body>
+</html>

@@ -1,0 +1,238 @@
+.box1{ 
+		position: absolute;
+		 	  top: 100px;
+		left: 0px;
+		background-image:url(http://www.trbimg.com/img-565b989f/turbine/la-sp-ln-kobe-bryant-announces-retirement-after-season-20151129);
+		float: left;
+       width: 300px;
+       height: 375px;
+       margin: 1px;
+       border: 5px solid #0000FF;
+	   background-position: 50%, 50%;
+	   background-size: cover;}
+	   
+
+	
+
+.box2{
+	position: absolute;
+	  top: 100px;
+  left: 325px;
+	background-image:url(http://images.performgroup.com/di/library/sporting_news/a1/ed/kevin-durant-getty-ftr-030216_xfp6lyk9u4rt1uqm20w1kkdj9.jpg?t=942612963);
+		float: left;
+       width: 650px;
+       height: 375px;
+       margin: 1px;
+       border: 5px solid #0000FF;
+	   background-position: 50%, 50%;
+background-size: cover
+}
+	
+.box3{ 
+position: absolute;
+				  top: 100px;
+  left: 1000px;
+		background-image:url(http://image.cleveland.com/home/cleve-media/width960/img/plain-dealer/photo/2015/11/06/-a9c0656352651870.JPG);
+		float: left;
+       width: 300px;
+       height: 375px;
+       margin: 1px;
+       border: 5px solid #0000FF;
+	   background-position: 50%, 50%;
+	   background-size: cover;
+	   }
+
+	
+.box1 p{
+		position: absolute;
+		bottom: -10%;
+		left: 0%;
+		font-size: 35px;
+		color: white;
+		border: 5px 5px;
+	}
+
+.box2 p{
+		position: absolute;
+		bottom: -10%;
+		left: 20%;
+		font-size: 35px;
+		color: white;
+		border: 5px 5px;
+	}
+	
+.box3 p{
+		position: absolute;
+		bottom: -10%;
+		left: 0%;
+		font-size: 35px;
+		color: white;
+		border: 5px 5px;
+	}
+
+#hr1{
+	position: absolute;
+	top: 600px;
+	height: 5px;
+	width: 90%;
+	background-color:red;
+}
+
+#hr2{
+	position: absolute;
+	top: 850px;
+	height: 5px;
+	width: 90%;
+	background-color:blue;
+}
+
+
+#hr3{
+	position: absolute;
+	top: 1100px;
+	height: 5px;
+	width: 90%;
+	background-color: purple;
+}
+
+
+#hr4{
+	position: absolute;
+	top: 1400px;
+	height: 5px;
+	width: 90%;
+	background-color: black;
+}
+
+#img1{
+	position: absolute;
+	top: 10px;
+	left: 300px;
+	height: 68.5px;
+	width: 175px;
+	background-color: black;
+}
+
+.head1 {
+	font-style: bold;
+	font-size: 30px;
+	color: red;
+	height: 1px;
+    width: 1100px;
+    padding: 40px;
+    margin: 20px;
+	position: absolute;
+	top: 505px;
+	right: 140px;
+	border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+	border-left-width: 5px;
+}
+
+.head2 {
+	font-style: bold;
+	font-size: 30px;
+	color: blue;
+	height: 1px;
+    width: 1100px;
+    padding: 40px;
+    margin: 20px;
+	position: absolute;
+	top: 755px;
+	right: 140px;
+	border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+	border-left-width: 5px;
+}
+
+.head3 {
+	font-style: bold;
+	font-size: 30px;
+	color: purple;
+	height: 1px;
+    width: 1100px;
+    padding: 40px;
+    margin: 20px;
+	position: absolute;
+	top: 1005px;
+	right: 140px;
+	border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+	border-left-width: 5px;
+}
+.head4 {
+	font-style: bold;
+	font-size: 30px;
+	color: black;
+	height: 1px;
+    width: 1100px;
+    padding: 40px;
+    margin: 20px;
+	position: absolute;
+	top: 1305px;
+	right: 140px;
+	border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+	border-left-width: 5px;
+}
+
+
+.form{
+	top:1800px;
+	position: absolute;	
+	left: 00px;
+	
+}
+
+.alert{
+	position: absolute;
+	top: 1700px;
+	left: 500px;
+}
+
+.hpar1{
+	position: absolute;
+	top: 600px;
+}
+
+.par1{
+	position: absolute;
+	top: 650px;
+}
+
+.hpar2{
+	position: absolute;
+	top: 850px;
+}
+
+.par2{
+	position: absolute;
+	top: 900px;
+}
+
+.hpar3{
+	position: absolute;
+	top: 1100px;
+}
+
+.par3{
+	position: absolute;
+	top: 1150px;
+}
+
+.hpar4{
+	position: absolute;
+	top: 1400px;
+}
+.par4{
+	position: absolute;
+	top: 1450px;
+}

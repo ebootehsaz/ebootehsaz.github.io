@@ -13,6 +13,26 @@ $(document).ready(function() {
            height: '-=25px'
 		  
        }); 
-   });   
+   });
+
+$(".head1, .head2, .head3, .head4").click(function() {
+  $(this).toggle( "explode" );
+  
+});   
+
+
+$('.par1, .par2, .par3, .par4').click(function() {
+  $( this ).toggle( "blind" );
+  
+});
+
+$( '.hpar1, .hpar2, .hpar3, .hpar4').click(function() {
+  $( this ).animate({
+    backgroundColor: "rgb( 20, 20, 20 )"
+  });
+});
+
+
+
    
 });

@@ -236,3 +236,13 @@ position: absolute;
 	position: absolute;
 	top: 1450px;
 }
+
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white; /* Green */
+    color: black;
+}

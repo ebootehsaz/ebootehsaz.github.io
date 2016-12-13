@@ -34,7 +34,7 @@ $( '.hpar1, .hpar2, .hpar3, .hpar4').click(function() {
 
 	
 	$('bball').mouseenter(function(){
-    $(this).fadeTo('slow',1.0);
+    $(this).fadeTo('slow',0.1);
 });
 
 

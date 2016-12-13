@@ -1,5 +1,28 @@
 <!Doctype HTML>
 <head>
+	      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+		
+      <script type = "text/javascript" language = "javascript">
+   
+         $(document).ready(function() {
+
+            $("#button").click(function(){
+               $(".target").effect( "bounce", {times:3}, 300 );
+            });
+
+         });
+			
+      </script>
+		
+      <style>
+         p {background-color:#bca; width:200px; border:1px solid green;}
+         div{ width:100px; height:100px; background:red;}
+      </style>
+	
 	
 <title> Basketball Final</title>
 <link rel="stylesheet" type="text/css" href="project.css">
@@ -13,7 +36,13 @@
 
 
 <body>
-	
+	      <p>Click the button</p>
+      <button id = "button"> Bounce </button>
+
+      <div class = "target">
+      </div>
+  
+   </body>
 <a href="http://www.nba.com/"><img src="https://goodlogo.com/images/logos/national_basketball_association_nba_logo_2414.gif" id="img1"></a>
 <center><div class="bball"><h1 style="color:blue;
 				   font-family: verdana;

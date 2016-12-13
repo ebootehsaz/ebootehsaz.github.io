@@ -31,9 +31,10 @@ $( '.hpar1, .hpar2, .hpar3, .hpar4').click(function() {
     backgroundColor: "rgb( 20, 20, 20 )"
   });
 });
-$(document).ready(function(){
-    $('bball').slideDown('slow');
 
+	
+	$('bball').mouseenter(function(){
+    $(this).fadeTo('slow',1.0);
 });
 
 

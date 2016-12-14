@@ -33,7 +33,7 @@ $( '.hpar1, .hpar2, .hpar3, .hpar4').click(function() {
 });
 
 	
-	$('bball').mouseenter(function(){
+	$('header').mouseenter(function(){
     $(this).fadeTo('slow',0.1);
 });
 

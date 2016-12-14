@@ -30,12 +30,6 @@ $( '.hpar1, .hpar2, .hpar3, .hpar4').click(function() {
   $(this).fadeTo("fast",0.5);
     
   });
-});
-
-function myFunction() {
-    alert("You love basketball!");
-}
-
 	
 	$('.header').click(function() {
     $( this ).fadeTo("slow",0.1);

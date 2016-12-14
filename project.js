@@ -32,6 +32,10 @@ $( '.hpar1, .hpar2, .hpar3, .hpar4').click(function() {
   });
 });
 
+function myFunction() {
+    alert("You love basketball!");
+}
+
 	
 	$('.header').click(function() {
     $( this ).fadeTo("slow",0.1);

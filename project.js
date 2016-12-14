@@ -26,15 +26,5 @@ $('.par1, .par2, .par3, .par4').click(function() {
   
 });
 
-$( '.hpar1, .hpar2, .hpar3, .hpar4').click(function() {
-  $(this).fadeTo("fast",0.5);
-    
-  });
-	
-	$('.header').click(function() {
-    $( this ).fadeTo("slow",0.1);
-});
-
-
    
 });

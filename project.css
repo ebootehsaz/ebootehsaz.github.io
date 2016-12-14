@@ -238,11 +238,11 @@ position: absolute;
 }
 
 button {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 1.4s; /* Safari */
+    transition-duration: 1.4s;
 }
 
 button:hover {
-    background-color: white; /* Green */
+    background-color: white;
     color: black;
 }

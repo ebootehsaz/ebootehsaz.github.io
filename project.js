@@ -22,12 +22,12 @@ $(".head1, .head2, .head3, .head4").click(function() {
 
 
 $('.par1, .par2, .par3, .par4').click(function() {
-  $( this ).toggle( "blind" );
+  $(this).toggle( "blind" );
   
 });
 
 $( '.hpar1, .hpar2, .hpar3, .hpar4').click(function() {
-  $( this ).fadeTo("fast",0.5);
+  $(this).fadeTo("fast",0.5);
     
   });
 });

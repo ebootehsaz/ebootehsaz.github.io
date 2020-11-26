@@ -1,4 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="mk1_style.css" src="mk1_main.js">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
+}
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://www1.nyc.gov/assets/leadfree/images/content-api/city-bg-1.jpg" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">New York City, where I'm at!</div>
+    </div>
+  </div>
+  <div class="tabn">
+    <button class="btn about" onclick="openCity(event, 'About')" id="defaultOpen">About Me</button>
+    <button class="btn education" onclick="openCity(event, 'Education')">Education</button>
+    <button class="btn skills" onclick="openCity(event, 'Skills')">Skills</button>
+    <button class="btn volunteer" onclick="openCity(event, 'Experience')">Experience</button>
+    <button class="btn awards" onclick="openCity(event, 'Awards')">Awards</button>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <h3>About Me</h3>
+    <p>My name is Ethan. Thats about it.</p>
+  </div>
+
+  <div id="Education" class="tabcontent">
+    <h3>Education</h3>
+    <p>Attending NYU class of 2024. Pursuing Bachelor of Science degree in Electrical and Computer Engineering.</p>
+  </div>
+
+  <div id="Skills" class="tabcontent">
+    <h3>Skills</h3>
+    <p>I can play the triangle.</p>
+  </div>
+
+  <div id="Experience" class="tabcontent">
+    <h3>Experience</h3>
+    <p>add dem</p>
+  </div>
+
+  <div id="Awards" class="tabcontent">
+    <h3>Awards</h3>
+    <p>add here</p>
+  </div>
+
+  <script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  document.getElementById("defaultOpen").click();
+
+  </script>
+
+
+
+
+<h1 class="a" >Ethan Bootehsaz</h1>
+<h1 class="b">Electrical and Computer Engineer</h1>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 <html>
 	<head>
 		<link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
@@ -45,3 +155,4 @@
 		<script src="index.js"></script>
 	</body>
 </html>
+-->

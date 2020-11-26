@@ -1,0 +1,209 @@
+body {
+background-color: #a2a4ac;
+margin: 35px;
+}
+#button:active {
+    vertical-align: top;
+    padding: 8px 13px 6px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 195%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: Black;
+  overflow: hidden;
+  width: 195%;
+  height: 0;
+  transition: .6s ease-out;
+
+}
+
+.container:hover .overlay {
+  height: 10%;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1.a {
+  color: Black;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 54px;
+  font-weight: 200;
+  line-height: 2px;
+  position: absolute;
+  top: 28px;
+  left: 46px;
+
+
+}
+h1.b{
+  font-family: Verdana, Geneva, sans-serif;
+  color: Black;
+  font-size: 25px;
+  line-height: 2.4px;
+  font-weight: lighter;
+  margin: 3px;
+  position: absolute;
+  top: 98px;
+  left: 46px;
+
+}
+
+hr.c{
+margin: 5px;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+width: 26%;
+border-width: 1px;
+
+}
+
+.sanserif{
+  font-family: Arial, Helvetica, Verdana;
+}
+
+.btn {
+  margin-top: 1em;
+  margin-right: 0em;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 7.7%;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+/* Green */
+.about {
+  border-color: #646D94;
+  color: #646D94;
+}
+
+.about:focus {
+  background-color: #646D94;
+  color: white;
+}
+
+.education {
+  border-color: #5F759E;
+  color: #5F759E;
+}
+
+.education:focus {
+  background-color: #5F759E;
+  color: white;
+}
+
+/* Orange */
+.skills {
+  border-color: #7385AD;
+  color: #7385AD;
+}
+
+.skills:focus {
+  background: #7385AD;
+  color: white;
+}
+
+/* Red */
+.volunteer {
+  border-color: #A694AA;
+  color: #A694AA;
+}
+
+.volunteer:focus {
+  background: #A694AA;
+  color: white;
+}
+.awards {
+  border-color: #D8B0AE;
+  color: #D8B0AE;
+}
+
+.awards:focus {
+  background: #D8B0AE;
+  color: white;
+}
+
+
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+  padding-left: 30;
+  padding-right: 30;
+  padding-top: 30;
+  padding-bottom: 30;
+  up: 30;
+}
+
+/* Gray */
+
+
+////////////////////////////////////////////////////
+.tab {
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  height: auto;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  height: auto;
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  height: auto;
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  height: auto;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+////////////////////////////////////////////////////////////

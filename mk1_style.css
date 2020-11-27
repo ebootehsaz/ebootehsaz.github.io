@@ -51,25 +51,22 @@ margin: 35px;
 h1.a {
   color: Black;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 250%;
+  font-size: 40px;
   font-weight: 100px;
-  line-height: 1px;
   position: absolute;
-  top: 1%;
   left: 10px;
+  top: 1px;
 
 
 }
 h1.b{
   font-family: Verdana, Geneva, sans-serif;
   color: Black;
-  font-size: 100%;
-  line-height: 1px;
+  font-size: 30px;
   font-weight: lighter;
   position: absolute;
-  top: 8%;
   left: 53px;
-
+  top: 49px;
 }
 
 hr.c{
@@ -114,6 +111,10 @@ border-width: 1px;
 }
 
 .education:focus {
+  background-color: #5F759E;
+  color: white;
+}
+.education:hover {
   background-color: #5F759E;
   color: white;
 }
